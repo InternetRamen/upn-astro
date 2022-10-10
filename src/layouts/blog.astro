@@ -2,18 +2,8 @@
 import BaseHead from "../components/BaseHead.astro";
 import PostLayout from "../components/PostLayout.astro";
 import Prose from "../components/Prose.astro";
+import formatDate from "../utils/formatDate";
 const { content } = Astro.props;
-
-const formatMMDDYYYY = (date) => {
-    const d = new Date(date);
-
-    const formattedDate = new Intl.DateTimeFormat("en-US", {
-        year: "numeric",
-        month: "long",
-        day: "numeric",
-    }).format(d);
-    return formattedDate;
-};
 ---
 
 <!DOCTYPE html>
@@ -24,7 +14,7 @@ const formatMMDDYYYY = (date) => {
     <body>
         <PostLayout>
             <h1 class="text-6xl">{content.title}</h1>
-            <h2 class="text-3xl text-gray-400">{formatMMDDYYYY(content.date)}</h2>
+            <h2 class="text-3xl text-gray-400">{formatDate(content.date)}</h2>
             <img src={content.thumbnail} width="100%" />
             <Prose>
                 <slot />
