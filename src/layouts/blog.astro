@@ -1,0 +1,14 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+
+const { content } = Astro.props
+---
+<!doctype html>
+<html lang="en">
+    <head>
+        <BaseHead title={content.title || "Upcounty Prevention Network"}/>
+    </head>
+   <body>
+        <h1>{content.title}</h1>
+    </body>
+</html>
