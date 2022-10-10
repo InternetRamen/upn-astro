@@ -1,0 +1,4 @@
+@tailwind base;
+/* https://github.com/tailwindlabs/tailwindcss/discussions/2917 */
+@tailwind components;
+@tailwind utilities;
