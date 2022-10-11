@@ -8,14 +8,13 @@ export interface Props {
 
 const { title } = Astro.props;
 ---
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <BaseHead />
     </head>
     <body>
-        <Navbar client:load />
+        <!-- <Navbar client:load /> -->
         <main class="mt-4 md:mt-0">
             <slot />
         </main>
