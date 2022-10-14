@@ -1,8 +1,8 @@
 ---
-import PostPreview from "./PostPreview.astro";
 const { posts } = Astro.props;
+import PostPreview from "../components/PostPreview.astro";
 //@ts-ignore
 const sortedPosts = posts.sort((a, b) => new Date(b.date) - new Date(a.date));
 ---
 
-{sortedPosts.map((post) => <PostPreview post={post} />)}
+<div class="w-full">{sortedPosts.map((post) => <PostPreview post={post} />)}</div>

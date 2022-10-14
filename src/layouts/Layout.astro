@@ -1,43 +1,24 @@
 ---
 import BaseHead from "../components/BaseHead.astro";
 import Footer from "../components/Footer.astro";
-import Navbar from "../components/Navbar";
-export interface Props {
-    title: string;
-}
-
-const { title } = Astro.props;
+import Navbar from "../components/Navbar.astro";
 ---
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <BaseHead />
     </head>
-    <body>
-        <Navbar client:only="react" />
-        <main class="mt-4 md:mt-0">
+    <body class="overflow-x-hidden">
+        <Navbar />
+
+        <main class="max-w-4xl w-11/12 mx-auto min-h-screen ">
             <slot />
         </main>
+
         <Footer />
         <style is:global>
-            :root {
-                --accent: 124, 58, 237;
-                --accent-gradient: linear-gradient(
-                    45deg,
-                    rgb(var(--accent)),
-                    #da62c4 30%,
-                    white 60%
-                );
-            }
-            html {
-                font-family: system-ui, sans-serif;
-                background-color: #f6f6f6;
-            }
-            code {
-                font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-                    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New,
-                    monospace;
-            }
+
         </style>
     </body>
 </html>

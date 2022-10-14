@@ -1,3 +1,20 @@
+:root {
+    --accent: #FB8085;
+    --accent-gradient: linear-gradient(
+        45deg,
+        #FB8085,
+        #F9C1B1 30%,
+        white 60%
+    );
+}
+html {
+    font-family: system-ui, sans-serif;
+    background-color: #f6f6f6;
+}
+code {
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+        DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+}
 @tailwind base;
 /* https://github.com/tailwindlabs/tailwindcss/discussions/2917 */
 @tailwind components;

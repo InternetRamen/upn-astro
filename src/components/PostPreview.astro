@@ -3,5 +3,4 @@ import Card from "./Card.astro";
 
 const { frontmatter: post, url } = Astro.props.post;
 ---
-{// @ts-ignore 
-<Card url={url} title={post.title} body={post.description} />
+<Card href={url} title={post.title} body={post.description} />
