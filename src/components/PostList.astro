@@ -5,4 +5,4 @@ import PostPreview from "../components/PostPreview.astro";
 const sortedPosts = posts.sort((a, b) => new Date(b.date) - new Date(a.date));
 ---
 
-<div class="w-full">{sortedPosts.map((post) => <PostPreview post={post} />)}</div>
+<div class="w-full flex flex-col gap-4">{sortedPosts.map((post) => <PostPreview post={post} />)}</div>
