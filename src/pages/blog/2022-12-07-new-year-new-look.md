@@ -6,13 +6,13 @@ title: New Year - New Look
 date: 2022-12-07T01:15:43.008Z
 thumbnail: /blog-uploads/logo.png
 ---
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -52,9 +52,9 @@ thumbnail: /blog-uploads/logo.png
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
   DefSemiHidden="true" DefQFormat="false" DefPriority="99"
   LatentStyleCount="276">
@@ -310,9 +310,9 @@ thumbnail: /blog-uploads/logo.png
   <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
   <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
 table.MsoNormalTable
@@ -333,22 +333,14 @@ table.MsoNormalTable
 	mso-hansi-font-family:Cambria;
 	mso-hansi-theme-font:minor-latin;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
 Welcome to the Upcounty Prevention Network’s beautifully redesigned and updated website! Members of the Poolesville High School Web Design Club have donated their time and expertise to creating this wonderful home for all things UPN.
 
- 
-
 I hope you’ll take a few minutes to check out the information, resources and announcements of upcoming programming for the youth of Northwestern Montgomery County and their families. Then, bookmark us and visit often!
-
- 
 
 The blog will be updated every two weeks to include ideas, information and supports for the mental and physical well-being of our kids.
 
- 
-
 Thanks again to Jeffery Wei, Annie Chen, Kelly Chen, Jaden Hou, and Guru Jayaprakash whose talents and generosity have made our new site possible!
-
-> <!--EndFragment-->
