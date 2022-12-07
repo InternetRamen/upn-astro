@@ -15,7 +15,7 @@ const { content } = Astro.props;
         <PostLayout>
             <h1 class="text-6xl">{content.title}</h1>
             <h2 class="text-3xl text-gray-400">{formatDate(content.date)}</h2>
-            <img src={content.thumbnail} width="100%" />
+            {content.thumbnail && <img src={content.thumbnail} width="100%" />}
             <Prose>
                 <slot />
             </Prose>
