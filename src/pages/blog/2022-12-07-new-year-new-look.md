@@ -4,7 +4,7 @@ author: Charlotte Boucher
 description: Welcome to our new website!
 title: New Year - New Look
 date: 2022-12-07T01:15:43.008Z
-thumbnail: /blog-uploads/logo.png
+thumbnail: ""
 ---
 <!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
